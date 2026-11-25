@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Dataset (too large for GitHub)
+archive/
+archive.zip
+
+# Windows/WSL metadata files
+*:Zone.Identifier
+
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
