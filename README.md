@@ -1,4 +1,4 @@
-# Tata Steel Surface Crack Detection
+#  Steel Surface Crack Detection
 
 An AI-assisted steel-surface inspection project that uses a **Convolutional Neural Network (CNN)** to classify steel-surface images as **Crack Detected** or **No Crack Detected**. The project includes a Streamlit dashboard for image upload and camera capture, confidence visualization, Grad-CAM explainability, and CSV export of batch predictions.
 
