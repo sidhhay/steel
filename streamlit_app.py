@@ -10,8 +10,8 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # ==================== PAGE CONFIG ====================
-st.set_page_config(page_title="Tata Steel Crack Detector", page_icon="🧠", layout="wide")
-st.markdown("<h1 style='text-align:center;color:#2196F3;'>🧠 Tata Steel Surface Crack Detection Dashboard</h1>", unsafe_allow_html=True)
+st.set_page_config(page_title="Steel Crack Detector", page_icon="🧠", layout="wide")
+st.markdown("<h1 style='text-align:center;color:#2196F3;'>🧠 Steel Surface Crack Detection Dashboard</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center;'>AI-powered defect detection using Convolutional Neural Networks</p>", unsafe_allow_html=True)
 
 
@@ -76,7 +76,7 @@ with st.sidebar:
     st.markdown("Model: **Custom CNN (2 Conv Layers + Dense)**")
     st.write("Activation: ReLU, Optimizer: Adam")
     st.markdown("---")
-    st.write("Developed for **Tata Steel Surface Crack Detection**")
+    st.write("Developed for **Steel Surface Crack Detection**")
     st.markdown("---")
 
 
@@ -184,4 +184,4 @@ with st.expander("ℹ️ About this Project"):
     for real-world industrial use.
     """)
 
-st.markdown("<p style='text-align:center; color:gray;'>© 2026 Tata Steel Crack Detection Project | Developed with Streamlit & TensorFlow</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center; color:gray;'>© 2026 Steel Crack Detection Project | Developed with Streamlit & TensorFlow</p>", unsafe_allow_html=True)
